@@ -5,7 +5,7 @@ public class Palm implements  Växter{
     double längd;
 
 
-    // Returnerar vätsketyp för Palmen.
+    // Returnerar vätsketyp för Palm.
     @Override
     public String vätskeBehov() {
         return "kranvatten";

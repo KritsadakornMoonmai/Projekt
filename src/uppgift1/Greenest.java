@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Greenest {
     public static void main(String[] args) {
-        // Skapa arraylist och addera enums egenskaper till Arraylist för loopen.
+        // Skapa arraylist och addera enums egenskaper till Arraylist för loop.
         ArrayList<Växter> växt = new ArrayList<>();
         växt.add(Namnlist.IGGE.getKaktus());
         växt.add(Namnlist.LAURA.getPalm());

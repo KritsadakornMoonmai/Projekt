@@ -3,7 +3,7 @@ package uppgift1;
 public class Kaktus implements Växter{
     String name;
     double längd;
-    // Returnerar vätsketyp för Kaktusen.
+    // Returnerar vätsketyp för Kaktus.
 
 
 
