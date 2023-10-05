@@ -8,7 +8,7 @@ public class Köttätande_Växt implements Växter{
     public String vätskeBehov() {
         return "proteindryck";
     }
-    //Beräkningen av antal liter för att vattna växten
+    //Beräkningen av antal liter för att vattna växten.
     @Override
     public double getLiter() {
         return 0.1 + (0.2 * getLängd());

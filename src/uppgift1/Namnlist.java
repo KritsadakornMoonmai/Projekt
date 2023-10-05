@@ -1,6 +1,6 @@
 package uppgift1;
 
-// Skapa enum med växternas namn.
+// Skapa enum med växternas namnet.
 public enum Namnlist {
     // Ange Namn och längd av växterna.
     IGGE("Igge", 0.2),

@@ -1,7 +1,7 @@
 package uppgift1;
 
 public interface Växter {
-
+// extra message
     public void setName(String name);
 
     public String getName();
