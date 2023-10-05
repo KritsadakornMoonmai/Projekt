@@ -14,7 +14,7 @@ public class Greenest {
         System.out.println(växt);
         boolean boo = true;
         String nameInput = JOptionPane.showInputDialog("Vilken växt ska få mat?: ");
-        // Loopen andvänds för att visa meddelande om namnet finns i arraylistan.
+        // Loopen andvänds för att visa meddelande om namnet finns i arraylistan .
         for (Växter växter : växt) {
             if (!växter.getName().equalsIgnoreCase(nameInput)) {
                 boo = false;

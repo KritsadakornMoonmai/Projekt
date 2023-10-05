@@ -3,7 +3,7 @@ package Inlämningsuppgift1;
 import javax.swing.*;
 // Skapa enum med växternas namn.
 public enum Namnlist {
-    // Ange Namn och längd av växterna.
+    // Ange Namn och längd av växterna .
     IGGE("Igge", 0.2),
     LAURA("Laura", 5),
     MEATLOAF("Meatloaf", 0.7),
