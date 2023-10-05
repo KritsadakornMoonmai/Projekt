@@ -7,9 +7,9 @@ public enum Namnlist {
     LAURA("Laura", 5),
     MEATLOAF("Meatloaf", 0.7),
     OLOF("Olof", 1);
-    private String namn;
+    private final String namn;
 
-    private double längd;
+    private final double längd;
 
     // Skapa konstuktur för att kommentar ska läggas efter dem.
     private Namnlist(String namn, double längd) {
