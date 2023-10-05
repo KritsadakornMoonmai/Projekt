@@ -1,44 +1,47 @@
-package Inlämningsuppgift1;
+package uppgift1;
 
-public class Kaktus implements Växter{
+public class Palm implements  Växter{
     String name;
     double längd;
-    // Returnerar vätsketyp för Kaktus.
 
 
-
+    // Returnerar vätsketyp för Palm.
     @Override
     public String vätskeBehov() {
-        return "mineralvatten";
+        return "kranvatten";
     }
+
     //Beräkningen av antal liter för att vattna växten
+
     @Override
     public double getLiter() {
-        return 0.2;
+        return 0.5 * getLängd();
     }
+
     @Override
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String Aname) {
+        name = Aname;
     }
 
     @Override
     public String getName() {
         return name;
     }
-    @Override
-    public void setLängd(double Alänge) {
-        längd = Alänge;
-    }
 
+    @Override
+    public void setLängd(double länge) {
+        längd = länge;
+    }
 
     @Override
     public double getLängd() {
         return längd;
     }
 
-    // På grund av att koden från annan klass visar annorlunda, så det behövs att anropa toString
-    //för att meddelandet visar ordentligt
     public String toString() {
         return getName();
     }
+
+
+
 }

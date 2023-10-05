@@ -1,4 +1,4 @@
-package Inlämningsuppgift1;
+package uppgift1;
 
 public interface Växter {
 

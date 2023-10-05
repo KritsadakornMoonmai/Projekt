@@ -1,6 +1,5 @@
-package Inlämningsuppgift1;
+package uppgift1;
 
-import javax.swing.*;
 // Skapa enum med växternas namn.
 public enum Namnlist {
     // Ange Namn och längd av växterna.
